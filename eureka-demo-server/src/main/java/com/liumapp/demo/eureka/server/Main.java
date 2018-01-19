@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * home-page:http://www.liumapp.com
  */
 @EnableEurekaServer
-@SpringBootApplication()
+@SpringBootApplication(scanBasePackages = {"com.liumapp.demo.eureka.server"})
 public class Main {
 
     public static void main(String[] args) {
