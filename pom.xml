@@ -16,8 +16,9 @@
 		</developer>
 	</developers>
 
-
-  <modules>
-	<module>eureka-demo-server</module>
+	<modules>
+		<module>eureka-demo-server</module>
+    <module>eureka-demo-client</module>
   </modules>
+
 </project>
