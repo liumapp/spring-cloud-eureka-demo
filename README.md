@@ -1,6 +1,8 @@
 # eureka-demo
 A demo for spring cloud eureka .
 
+the project is under coding , plz don't use right now .
+
 ## how to use
 
 * start eureka-demo-server
