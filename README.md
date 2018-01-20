@@ -1,5 +1,17 @@
-# multy-module-archetype
-A multy module springboot project , which was created for maven archetype.
+# eureka-demo
+A demo for spring cloud eureka .
+
+## how to use
+
+* start eureka-demo-server
+
+* open browser and visit http://localhost:1234 , this is the pannel of Eureka server.
+
+* start eureka-demo-client
+
+* open browser and visit http://localhost:8080
+
+* Now you can find the client info in Eureka server pannel. 
 
 ### documents
 
