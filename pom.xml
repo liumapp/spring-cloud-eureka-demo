@@ -20,6 +20,7 @@
 		<module>eureka-demo-server</module>
 		<module>eureka-demo-client</module>
     <module>eureka-demo-client-a</module>
+    <module>eureka-demo-client-b</module>
   </modules>
 
 </project>
