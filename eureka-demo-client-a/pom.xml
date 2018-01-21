@@ -3,9 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>1.3.7.RELEASE</version>
+    <groupId>com.liumapp.demo.eureka</groupId>
+    <artifactId>spring-cloud-eureka-demo</artifactId>
+    <version>v1.0.0</version>
   </parent>
 
   <groupId>com.liumapp.demo.eureka.client.a</groupId>
@@ -40,18 +40,6 @@
       <artifactId>spring-cloud-starter-eureka</artifactId>
     </dependency>
   </dependencies>
-
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-dependencies</artifactId>
-        <version>Brixton.SR5</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
 
   <build>
     <plugins>
