@@ -17,7 +17,7 @@ the project is under coding , plz don't use right now .
  
  like this : 
  
-    ![1.pic.jpg](http://om40sen9v.bkt.clouddn.com/2d7c8321603e499d84427e2cd4744c25.jpg)
+ ![1.pic.jpg](http://om40sen9v.bkt.clouddn.com/2d7c8321603e499d84427e2cd4744c25.jpg)
 
 
 ### documents
