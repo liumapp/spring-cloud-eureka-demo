@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.liumapp.demo.eureka</groupId>
-	<artifactId>eureka-demo</artifactId>
+	<artifactId>spring-cloud-eureka-demo</artifactId>
 	<version>v1.0.0</version>
 	<packaging>pom</packaging>
 
