@@ -13,7 +13,12 @@ the project is under coding , plz don't use right now .
 
 * open browser and visit http://localhost:8080
 
-* Now you can find the client info in Eureka server pannel. 
+* Now you can find the client info in Eureka server pannel.
+ 
+ like this : 
+ 
+    ![1.pic.jpg](http://om40sen9v.bkt.clouddn.com/2d7c8321603e499d84427e2cd4744c25.jpg)
+
 
 ### documents
 
