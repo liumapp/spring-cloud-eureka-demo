@@ -33,6 +33,10 @@
       <version>${springboot.version}</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-eureka</artifactId>
+    </dependency>
   </dependencies>
 
   <build>
