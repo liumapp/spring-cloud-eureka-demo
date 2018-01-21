@@ -19,10 +19,10 @@
 	<modules>
 		<module>eureka-demo-server</module>
 		<module>eureka-demo-client</module>
-    <module>eureka-demo-client-a</module>
-    <module>eureka-demo-client-b</module>
-    <module>eureka-demo-customer-a</module>
-    <module>eureka-demo-customer-b</module>
-  </modules>
+		<module>eureka-demo-client-a</module>
+		<module>eureka-demo-client-b</module>
+		<module>eureka-demo-customer-a</module>
+		<module>eureka-demo-customer-b</module>
+ 	 </modules>
 
 </project>
