@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class IndexController {
 
-    @RequestMapping(path = "/")
+    @RequestMapping(path = "")
     public String index (ModelMap model) {
         return "Hello , this is customer a .";
     }
