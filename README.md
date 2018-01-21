@@ -9,9 +9,9 @@ the project is under coding , plz don't use right now .
 
 * open browser and visit http://localhost:1234 , this is the pannel of Eureka server.
 
-* start eureka-demo-client
+* start eureka-demo-client-a and eureka-demo-client-b
 
-* open browser and visit http://localhost:8080
+* open browser and visit http://localhost:8081 and http://localhost:8082
 
 * Now you can find the client info in Eureka server pannel.
  
@@ -19,29 +19,8 @@ the project is under coding , plz don't use right now .
  
  ![1.pic.jpg](http://om40sen9v.bkt.clouddn.com/2d7c8321603e499d84427e2cd4744c25.jpg)
 
+* start eureka-demo-customer-a
 
-### documents
+* open browser and visit http://localhost:8083
 
-#### get admin page
-
-* mvn install
-
-* cd backend/web/target
-
-* java -jar web-1.0.0-SNAPSHOT.jar
-
-* open your browser and look for http://localhost:8080 , you will find backend page.
-
-#### get frontend page
-
-* mvn install (only onced should be enough)
-
-* cd frontend/web/target
-
-* java -jar web-1.0.0-SNAPSHOT.jar
-
-* open your browser and look for http://localhost:8080 , you will find frontend page.
-
-### Something else
-
-* if you want a simple module project , plz view my another git repository [SpringBootMavenArchetype](https://github.com/liumapp/SpringBootMavenArchetype)
+* now you can find customer had use client-a'server . 
