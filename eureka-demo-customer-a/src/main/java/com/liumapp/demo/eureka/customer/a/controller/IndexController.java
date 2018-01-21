@@ -1,10 +1,7 @@
 package com.liumapp.demo.eureka.customer.a.controller;
 
-import com.liumapp.demo.eureka.customer.a.entity.Guest;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -16,15 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class IndexController {
 
-    @Autowired
-    private Guest guest;
-
-    @GetMapping("/")
+    @RequestMapping(path = "/")
     public String index (ModelMap model) {
-
-        model.addAttribute("name" , guest.getName());
-        model.addAttribute("sex" , guest.getSex());
-        return "index";
+        return "Hello , this is customer a .";
     }
 
 }
