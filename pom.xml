@@ -13,6 +13,9 @@
 	<version>v1.0.0</version>
 	<packaging>pom</packaging>
 
+	<name>spring-cloud-eureka-demo</name>
+	<description>Demo project for Spring Cloud Eureka</description>
+
 	<developers>
 		<developer>
 			<id>liumapp</id>
